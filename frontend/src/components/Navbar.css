@@ -5,6 +5,9 @@ nav {
     height: 100px;
     padding: 40px;
     color: var(--primary-text);
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 nav img {
