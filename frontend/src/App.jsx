@@ -6,11 +6,13 @@ import About from './pages/About'
 import Books from './pages/Books'
 import Authors from './pages/Authors'
 import Contact from './pages/Contact'
+import Navbar from './components/Navbar'
 
 function App() {
 
   return (
     <>
+      <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
