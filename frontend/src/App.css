@@ -36,6 +36,7 @@ a {
 h3 {
   font-size: 30px;
   color: var(--primary-header);
+  font-weight: 400;
 }
 
 p {

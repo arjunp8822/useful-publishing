@@ -1,0 +1,54 @@
+.subscribe {
+    padding: 40px 0;
+}
+
+.subscribe form {
+    background-color: rgba(0,0,0,.05);
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.input-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    width: 90%;
+    margin-top: 10px;
+}
+
+.input-container input {
+    padding: 15px;
+    border: none;
+    width: 100%;
+}
+
+.subscribe form button {
+    background-color: #272727;
+    padding: 15px;
+    width: 150px;
+    border: none;
+    color: white;
+    text-transform: uppercase;
+    margin-top: 10px;
+}
+
+.subscribe form button:hover {
+    cursor: pointer;
+}
+
+@media (max-width: 768px) {
+    .input-container {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .input-container input {
+        padding: 12px;
+        font-size: 12px;
+    }
+}
