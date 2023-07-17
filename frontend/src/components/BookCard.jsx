@@ -1,8 +1,12 @@
 import React from 'react'
+import './BookCard.css'
 
-const BookCard = () => {
+const BookCard = (props) => {
   return (
-    <div>BookCard</div>
+    <div className='book-card'>
+        <img src={props.img} />
+        <h5>{props.name}</h5>
+    </div>
   )
 }
 

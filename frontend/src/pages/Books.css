@@ -1,0 +1,49 @@
+.books {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 200px);
+    gap: 40px;
+    justify-content: center;
+    align-items: center;
+}
+
+.book-button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 40px;
+}
+
+.book-button-container button {
+    background-color: #272727;
+    padding: 15px;
+    width: 150px;
+    border: none;
+    color: white;
+    text-transform: uppercase;
+    margin-top: 10px;
+}
+
+.book-button-container button:hover {
+    cursor: pointer;
+}
+
+@media (max-width: 768px) {
+
+    .book-button-container {
+        overflow: scroll;
+        padding-left: 210px;
+    }
+
+    .book-button-container button {
+        background-color: #272727;
+        padding: 15px;
+        min-width: 110px;
+        border: none;
+        color: white;
+        text-transform: uppercase;
+        margin-top: 10px;
+        font-size: 12px;
+        margin-bottom: 10px;
+    }
+}
