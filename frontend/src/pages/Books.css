@@ -30,15 +30,19 @@
 
 @media (max-width: 768px) {
 
+    .books {
+        grid-template-columns: 1fr;
+    }
+
     .book-button-container {
         overflow: scroll;
-        padding-left: 210px;
+        padding-left: 240px;
     }
 
     .book-button-container button {
         background-color: #272727;
         padding: 15px;
-        min-width: 110px;
+        min-width: 120px;
         border: none;
         color: white;
         text-transform: uppercase;

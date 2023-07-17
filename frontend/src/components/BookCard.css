@@ -10,11 +10,23 @@
 .book-card img {
     width: 200px;
     height: 300px;
-    object-fit: cover;
+    object-fit: contain;
     overflow: hidden;
 }
 
 .book-card:hover {
     cursor: pointer;
     opacity: 0.8;
+}
+
+@media (max-width: 768px) {
+    .book-card {
+        width: 100%;
+        height: auto;
+    }
+
+    .book-card img {
+        width: 100%;
+        height: auto;
+    }
 }

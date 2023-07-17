@@ -45,4 +45,8 @@
     .author-info img {
         width: 100%;
     }
+
+    .author-book-container {
+        grid-template-columns: 1fr;
+    }
 }
