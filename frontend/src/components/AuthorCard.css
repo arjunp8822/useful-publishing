@@ -1,0 +1,21 @@
+.author-card {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.5s;
+}
+
+.author-card img {
+    width: 200px;
+    height: 300px;
+    object-fit: cover;
+    overflow: hidden;
+    filter: grayscale(100%);
+}
+
+.author-card:hover {
+    cursor: pointer;
+    opacity: 0.8;
+}
