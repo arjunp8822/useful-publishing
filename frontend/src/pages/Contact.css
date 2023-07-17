@@ -1,0 +1,110 @@
+.contact {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 40px;
+}
+
+.contact-email {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    width: 30%;
+    height: 100%;
+}
+
+.contact-email-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    padding: 20px 0;
+    border-bottom: 2px solid white;
+}
+
+.contact form {
+    background-color: rgba(0,0,0,.05);
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+}
+
+.input-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    width: 90%;
+    margin-top: 10px;
+}
+
+.input-name {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    width: 100%;
+}
+
+.input-container input {
+    padding: 15px;
+    border: none;
+    width: 100%;
+}
+
+.contact form button {
+    background-color: #272727;
+    padding: 15px;
+    width: 150px;
+    border: none;
+    color: white;
+    text-transform: uppercase;
+    margin-top: 10px;
+}
+
+.contact form button:hover {
+    cursor: pointer;
+}
+
+@media (max-width: 768px) {
+
+    .contact {
+       flex-direction: column;
+    }
+
+    .input-container {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .input-container input {
+        padding: 12px;
+        font-size: 12px;
+    }
+
+    .contact-email {
+        width: 100%;
+    }
+    
+    .contact form {
+        width: 100%;
+    }
+
+    .contact form button {
+        background-color: #272727;
+        padding: 15px;
+        min-width: 110px;
+        border: none;
+        color: white;
+        text-transform: uppercase;
+        margin-top: 10px;
+        font-size: 12px;
+        margin-bottom: 10px;
+    }
+}
