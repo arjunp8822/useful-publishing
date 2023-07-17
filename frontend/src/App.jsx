@@ -8,6 +8,7 @@ import Authors from './pages/Authors'
 import Contact from './pages/Contact'
 import Navbar from './components/Navbar'
 import AuthorPage from './pages/AuthorPage'
+import BookPage from './pages/BookPage'
 
 function App() {
 
@@ -21,6 +22,7 @@ function App() {
         <Route path="/authors" element={<Authors />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/authors/:id" element={<AuthorPage />} />
+        <Route path="/books/:id" element={<BookPage />} />
       </Routes>
     </>
   )

@@ -17,66 +17,77 @@ const Books = () => {
 
   const bookList = [
     {
+      id: 1,
       name: 'Both Ends Burning',
       img: BothEndsBurning,
       category: 'Fiction',
       author: 'Peter Darling'
     },
     {
+      id: 2,
       name: 'Y',
       img: Y,
       category: 'Fiction',
       author: 'Peter Sharpe'
     },
     {
+      id: 3,
       name: 'Santa’s Mid Life Crisis',
       img: SantasMidLifeCrisis,
       category: 'Fiction',
       author: 'Peter Sharpe'
     },
     {
+      id: 4,
       name: 'Reflections Of A Vampire',
       img: ReflectionsOfAVampire,
       category: 'Fiction',
       author: 'Peter Sharpe'
     },
     {
+      id: 5,
       name: 'An Encounter With Lady Luck',
       img: AnEncounterWithLadyLuck,
       category: 'Fiction',
       author: 'Peter Sharpe'
     },
     {
+      id: 6,
       name: 'Our Mothers of Invention',
       img: OurMothersOfInvention,
       category: 'Non-Fiction',
       author: 'Riley J Sommers'
     },
     {
+      id: 7,
       name: 'Escaping The Other Side of Midnight',
       img: EscapingTheOtherSideOfMidnight,
       category: 'Non-Fiction',
       author: 'Peter Sharpe'
     },
     {
+      id: 8,
       name: 'Making It Out Alive',
       img: MakingItOutAlive,
       category: 'Non-Fiction',
       author: 'J.D Clement'
     },
     {
+      id: 9,
       name: 'All That Glitters',
       img: AllThatGlitters,
       category: 'Non-Fiction',
       author: 'Peter Sharpe'
     },
     {
+      id: 10,
       name: 'Sudoku',
       img: Sudoku,
       category: 'Sudoku',
       author: 'NA'
     },
     {
+      id: 11,
       name: 'Sudoku Stonkers',
       img: SudokuStonkers,
       category: 'Sudoku',
@@ -111,7 +122,7 @@ const Books = () => {
       </div>
       <div className="books">
         {filteredList.map((book) => (
-          <BookCard name={book.name} img={book.img} />
+          <BookCard name={book.name} img={book.img} id={book.id}/>
         ))}
       </div>
     </section>

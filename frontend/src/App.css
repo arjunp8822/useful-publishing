@@ -39,6 +39,12 @@ h3 {
   font-weight: 400;
 }
 
+h4 {
+  font-size: 20px;
+  color: var(--primary-header);
+  font-weight: 400;
+}
+
 h5 {
   font-size: 30px;
   color: var(--primary-header);
@@ -62,6 +68,10 @@ a {
 @media (max-width: 768px) {
   h3 {
     font-size: 20px;
+  }
+
+  h4 {
+    font-size: 17px;
   }
 
   p {
