@@ -41,13 +41,25 @@
     cursor: pointer;
 }
 
+.submitted {
+    background-color: rgba(0,0,0,.05);
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.submitted span {
+    text-transform: capitalize;
+}
+
 @media (max-width: 768px) {
-    .input-container {
+    .subscribe .input-container {
         width: 100%;
         flex-direction: column;
     }
 
-    .input-container input {
+    .subscribe .input-container input {
         padding: 12px;
         font-size: 12px;
     }

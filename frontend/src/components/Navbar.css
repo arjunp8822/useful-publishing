@@ -1,5 +1,6 @@
 nav {
     display: flex;
+    position: sticky;
     justify-content: space-between;
     align-items: center;
     height: 100px;
@@ -8,6 +9,8 @@ nav {
     max-width: 1200px;
     margin-left: auto;
     margin-right: auto;
+    z-index: 2;
+    width: 100%;
 }
 
 nav img {
@@ -23,11 +26,19 @@ nav ul {
     font-size: var(--link);
 }
 
+nav li {
+    text-transform: uppercase;
+}
+
 .nav-arrow {
     display: none;
 }
 
 @media (max-width: 768px) {
+
+    nav {
+        background-color: var(--secondary-bg);
+    }
 
     nav img {
         width: 150px;
