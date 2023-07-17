@@ -7,6 +7,7 @@ import Books from './pages/Books'
 import Authors from './pages/Authors'
 import Contact from './pages/Contact'
 import Navbar from './components/Navbar'
+import AuthorPage from './pages/AuthorPage'
 
 function App() {
 
@@ -19,6 +20,7 @@ function App() {
         <Route path="/books" element={<Books />} />
         <Route path="/authors" element={<Authors />} />
         <Route path="/contact" element={<Contact />} />
+        <Route path="/authors/:id" element={<AuthorPage />} />
       </Routes>
     </>
   )

@@ -20,56 +20,67 @@ const Books = () => {
       name: 'Both Ends Burning',
       img: BothEndsBurning,
       category: 'Fiction',
+      author: 'Peter Darling'
     },
     {
       name: 'Y',
       img: Y,
       category: 'Fiction',
+      author: 'Peter Sharpe'
     },
     {
       name: 'Santa’s Mid Life Crisis',
       img: SantasMidLifeCrisis,
       category: 'Fiction',
+      author: 'Peter Sharpe'
     },
     {
       name: 'Reflections Of A Vampire',
       img: ReflectionsOfAVampire,
       category: 'Fiction',
+      author: 'Peter Sharpe'
     },
     {
       name: 'An Encounter With Lady Luck',
       img: AnEncounterWithLadyLuck,
       category: 'Fiction',
+      author: 'Peter Sharpe'
     },
     {
       name: 'Our Mothers of Invention',
       img: OurMothersOfInvention,
       category: 'Non-Fiction',
+      author: 'Riley J Sommers'
     },
     {
       name: 'Escaping The Other Side of Midnight',
       img: EscapingTheOtherSideOfMidnight,
       category: 'Non-Fiction',
+      author: 'Peter Sharpe'
     },
     {
       name: 'Making It Out Alive',
       img: MakingItOutAlive,
       category: 'Non-Fiction',
+      author: 'J.D Clement'
     },
     {
       name: 'All That Glitters',
       img: AllThatGlitters,
       category: 'Non-Fiction',
+      author: 'Peter Sharpe'
     },
     {
       name: 'Sudoku',
       img: Sudoku,
       category: 'Sudoku',
+      author: 'NA'
     },
     {
       name: 'Sudoku Stonkers',
       img: SudokuStonkers,
       category: 'Sudoku',
+      author: 'NA'
     }
   ]
 
