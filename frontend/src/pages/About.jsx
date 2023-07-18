@@ -1,6 +1,7 @@
 import React from 'react'
 import aboutImg from '../assets/about.jpg'
 import './About.css'
+import { Link } from 'react-router-dom'
 
 const About = () => {
   return (
@@ -11,7 +12,7 @@ const About = () => {
           Being a small boutique business means we are agile and flexible and quite literally think outside the square. We do things differently and are always prepared to explore opportunities. 
           So if you are fresh independent thinker as an independent or indie author, a book reviewer or blogger or just a book lover, reach out we would love to hear from you.
         </p>
-        <a href="/contact"><button>Contact Us</button></a>
+        <button><Link to='/contact' className='contact-btn'>Contact Us</Link></button>
       </div>
       <img src={aboutImg} alt="about useful publishing" />
     </section>
