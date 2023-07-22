@@ -18,7 +18,7 @@ This project is built for a real client that has just started a small publishing
 
 ## Usage
 
-Demo website is currently live at - * .[https://useful-publishing.netlify.app/]
+Demo website is currently live at - [https://useful-publishing.netlify.app/]
 
 ## Roadmap
 
