@@ -22,7 +22,7 @@ Demo website is currently live at - https://useful-publishing.netlify.app/
 
 ## Roadmap
 
-Phase 1 - Frontend (no backend)
-Phase 2 - Fullstack project with admin panel
-Phase 3 - Add authentication and protected routes
-Phase 4 - Add cart and payments
+* Phase 1 - Frontend (no backend)
+* Phase 2 - Fullstack project with admin panel
+* Phase 3 - Add authentication and protected routes
+* Phase 4 - Add cart and payments
